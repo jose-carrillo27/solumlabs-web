@@ -18,7 +18,7 @@
 
   <main class="wrap doc">
     <h1>Política de privacidad de GymRush</h1>
-    <p class="meta">Política de tratamiento de datos personales · Versión 1 · Vigente desde el 12 de noviembre de 2026</p>
+    <p class="meta">Política de tratamiento de datos personales · Versión 1 · Vigente desde el 14 de noviembre de 2026</p>
 
     <section class="summary" aria-labelledby="resumen">
       <h2 id="resumen">En pocas palabras</h2>
@@ -70,6 +70,7 @@
       <li><strong>Datos de tu cuenta de Google:</strong> nombre, correo electrónico, foto de perfil (si la tienes) e identificador de Google, tal como los entrega Google al iniciar sesión. No recibimos tu contraseña.</li>
       <li><strong>Una copia de los datos anteriores</strong> (perfil, entrenamientos, rutinas, planes, ejercicios propios y peso) para guardarlos en la nube y sincronizarlos entre tus teléfonos.</li>
       <li><strong>Tu aceptación</strong> de estos documentos: qué versión aceptaste y cuándo.</li>
+      <li><strong>Identificador de notificaciones</strong> de cada teléfono en el que inicias sesión, que da Firebase Cloud Messaging (de Google), para avisarte cuando alguien te envía una rutina o un plan, te pide ver tu perfil o te invita a ver el suyo.</li>
     </ul>
 
     <h3>Si usas las funciones para compartir (opcional, con cuenta)</h3>
@@ -82,13 +83,13 @@
 
     <h3>Lo que no recogemos</h3>
     <p>GymRush no accede a tu ubicación, contactos, fotos, cámara ni micrófono. No usa el identificador de publicidad ni herramientas de analítica o de seguimiento.</p>
-    <p>La app pide permiso para <strong>notificaciones</strong> (para la cuenta atrás del descanso) y para <strong>alarmas exactas</strong> (para avisarte justo al terminar el descanso). Estos permisos no envían ningún dato.</p>
+    <p>La app pide permiso para <strong>notificaciones</strong> (la cuenta atrás del descanso y, con cuenta, los avisos de solicitudes) y para <strong>alarmas exactas</strong> (para avisarte justo al terminar el descanso). Puedes desactivar cada tipo de aviso en los ajustes de notificaciones del teléfono.</p>
 
     <h2 id="finalidades">3. Para qué los usamos</h2>
     <ul>
       <li>Que la app funcione: registrar tus entrenamientos y mostrarte tu historial, tu progreso y tu peso.</li>
       <li>Guardar tu copia en la nube y sincronizarla entre tus teléfonos, si inicias sesión.</li>
-      <li>Hacer posible lo que tú decidas compartir con otras personas.</li>
+      <li>Hacer posible lo que tú decidas compartir con otras personas y avisarte de las solicitudes que recibes.</li>
       <li>Revisar denuncias y proteger a los usuarios ante abusos.</li>
       <li>Responder tus consultas y solicitudes.</li>
     </ul>
@@ -108,7 +109,7 @@
     <h2 id="terceros">6. Con quién se comparten</h2>
     <ul>
       <li><strong>Supabase</strong> (Supabase Inc.): aloja la copia en la nube y gestiona el inicio de sesión.</li>
-      <li><strong>Google:</strong> para iniciar sesión con tu cuenta de Google y para distribuir la app en Google Play.</li>
+      <li><strong>Google:</strong> para iniciar sesión con tu cuenta de Google, para distribuir la app en Google Play y, con Firebase Cloud Messaging, para entregar los avisos de solicitudes. Para cada aviso, Firebase recibe el identificador de notificaciones del teléfono y el texto del aviso (el @usuario de quien envía y el nombre de la rutina o el plan); nunca tus datos de entrenamiento ni de salud.</li>
       <li><strong>Otras personas que uses GymRush:</strong> solo lo que tú decidas compartir. Tu @usuario solo lo ven tus contactos (las personas con las que te has enviado algo o compartido el perfil), y para encontrarte hay que escribirlo completo. Lo que envías es una copia: si la otra persona la añade a su biblioteca, esa copia es suya.</li>
       <li><strong>Autoridades:</strong> solo si una ley o una orden judicial nos obliga.</li>
     </ul>
@@ -119,6 +120,7 @@
       <li><strong>En la nube:</strong> mientras tengas tu cuenta. Si la eliminas, borramos de inmediato tu cuenta y todos sus datos de nuestra base de datos, incluidos tu @usuario, solicitudes, permisos, bloqueos y denuncias, salvo la prueba de tu aceptación que se explica abajo.</li>
       <li><strong>Copias de seguridad del servidor:</strong> nuestro proveedor hace copias de seguridad cifradas de la base de datos para poder recuperarla ante una avería. Tus datos pueden seguir en esas copias hasta <strong>30 días</strong> después de eliminar la cuenta; pasado ese plazo desaparecen solas. No las usamos para nada más y no restauramos cuentas eliminadas.</li>
       <li><strong>Prueba de tu aceptación:</strong> al eliminar la cuenta conservamos durante <strong>1 año</strong> un registro mínimo: una huella cifrada de tu correo (no el correo en sí), la versión de estos documentos que aceptaste y las fechas en que la aceptaste y en que eliminaste la cuenta. Solo sirve para demostrar que nos diste tu autorización si hubiera una reclamación, no incluye ningún otro dato y se borra sola al cumplir el año.</li>
+      <li><strong>Identificadores de notificaciones:</strong> mientras tengas la sesión abierta en ese teléfono. Se borran al cerrar sesión, al eliminar la cuenta o cuando Firebase indica que ya no son válidos (por ejemplo, si desinstalas la app).</li>
       <li><strong>En tu teléfono:</strong> hasta que los borres, borres los datos de la app o la desinstales. Eliminar la cuenta no borra lo que hay en el teléfono.</li>
       <li><strong>Correos de soporte:</strong> el tiempo necesario para atender tu solicitud.</li>
     </ul>
